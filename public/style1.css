@@ -1,0 +1,27 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+}
+
+.section-two{
+    background-color: #39b54a;
+}
+.content-four{
+    background-color: #111111;
+}
+.imgColor{
+    color:#757575
+}
+.contactSection{
+    background-color:  #151515;
+    background-blend-mode:difference;
+
+}
+.formBg{
+    background-color: rgba(0,0,0,.2);
+    color: rgba(255,255,255,.4);
+}
