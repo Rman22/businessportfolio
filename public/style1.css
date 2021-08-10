@@ -25,3 +25,22 @@ html,body{
     background-color: rgba(0,0,0,.2);
     color: rgba(255,255,255,.4);
 }
+
+.section-one-header{
+    z-index: 100000!important;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100000 !important;
+    top: 0;
+ 	font-family:'Montserrat', sans-serif;
+    right: 0;
+ 	background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    outline: none;
+
+}
