@@ -1,3 +1,5 @@
+
+
 console.log('hello');
   (function() {
       // Smooth Scrolling
@@ -23,3 +25,6 @@ console.log('hello');
     function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
     }
+
+    ///count up numbers
+   

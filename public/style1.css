@@ -1,9 +1,24 @@
+*{
+       
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    
+
+
+
+
+}
+
 html,body{
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 100;
+
 
 }
 
@@ -28,19 +43,4 @@ html,body{
 
 .section-one-header{
     z-index: 100000!important;
-}
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 100000 !important;
-    top: 0;
- 	font-family:'Montserrat', sans-serif;
-    right: 0;
- 	background-color: #fff;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    outline: none;
-
 }
