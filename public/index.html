@@ -11,6 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="jquery.waypoints.min.js"></script>
     <script src="main.js"></script>	
    
 </head>
@@ -166,10 +167,10 @@
                 </p> 
             </div>
             </div>
-            <div class="counters gap-2 mt-8  pb-24  text-center items-center grid  sm:grid-cols-2 xl:grid-cols-4 xl:mx-64  " >
+            <div class="counters gap-2 mt-8  pb-24  text-center items-center grid  sm:grid-cols-2 xl:grid-cols-4 xl:mx-64  " id="pointers" >
                 <div class="col  border-r border-green-300  ">
                     <div class="stats-number  text-white font-bold  ">
-                        <span class="counter text-7xl">567</span> 
+                        <span class="counter text-7xl" data-target="567" id="counter">567</span> 
                     </div>
                     <div class="stats-descrip  text-xl mt-4 mb-4">
                         <h5 >Awards Recieved</h5>
@@ -177,7 +178,7 @@
                 </div>
                 <div class="col lg:border-r border-green-300  ">
                     <div class="stats-number  text-white font-bold ">
-                        <span class="counter text-7xl">567</span> 
+                        <span class="counter text-7xl" data-target="567" id="counter">567</span> 
                     </div>
                     <div class="stats-descrip  text-xl mt-4 mb-4 ">
                         <h5>Awards Recieved</h5>
@@ -185,7 +186,7 @@
                 </div>
                 <div class="col  border-r border-green-300">
                     <div class="stats-number  text-white font-bold ">
-                        <span class="counter text-7xl">567</span> 
+                        <span class="counter text-7xl" data-target="567" id="counter">567</span> 
                     </div>
                     <div class="stats-descrip  text-xl mt-4 mb-4">
                         <h5>Awards Recieved</h5>
@@ -194,7 +195,7 @@
                 <div class="col  lg:border-r border-green-300 ">
                     <div>
                     <div class="stats-number  text-white font-bold ">
-                        <span class="counter text-7xl">567</span> 
+                        <span class="counter text-7xl" data-target="567" id="counter">567</span> 
                     </div>
                     <div class="stats-descrip  text-xl mt-4 mb-4">
                         <h5>Awards Recieved</h5>
