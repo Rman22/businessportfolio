@@ -27,4 +27,28 @@ console.log('hello');
     }
 
     ///count up numbers
-   
+    /** 
+    $(document).ready(function(){
+   const counter = document.querySelectorAll('.num');
+
+   counter.forEach((num) =>{
+     num.innerText = '0';
+
+     const updateCounter = () => {
+       const target = +num.getAttribute
+       ('data-target');
+
+       const c = +num.innerText
+       const increment = target / 50;
+
+       if (c < target) {
+         num.innerText = `${Math.ceil(c + increment)}`;
+         setTimeout(updateCounter, 10);
+       }
+
+     };
+     updateCounter();
+   })
+  }
+  )
+*/
