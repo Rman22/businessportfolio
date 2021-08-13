@@ -44,3 +44,21 @@ html,body{
 .section-one-header{
     z-index: 100000!important;
 }
+
+/*****
+swiper
+****/
+.swiper-pagination-bullet-active{
+    height: 12px !important;
+    width: 12px !important;
+    background-color:#39b54a !important;
+
+}
+.swiper-pagination-bullet{
+    height: 12px !important;
+    width: 12px !important;
+}
+.sswiper-container{
+    margin-left:16rem !important;
+    margin-right: 16rem !important;
+}

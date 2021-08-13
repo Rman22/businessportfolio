@@ -1,5 +1,5 @@
-//////menu bar
-
+    
+    ///menubar navigation
     function openNav() {
       document.getElementById("mySidenav").style.width = "280px";
     }
@@ -20,22 +20,10 @@
     $(document).ready(function(){
         $('.counter').counterUp({
             delay: 2,
-            time: 1500
+            time: 1000
         });
      
       });
-/**
-var waypoint = new Waypoint({
-  element: document.getElementById('counter'),
-  handler: function(direction) {
-    
-$(document).ready(function(){
-  $('.counter').counterUp({
-      delay: 10,
-      time: 2000
-  });
 
-});
-  }
-})
- */
+      //////////////swiper
+ 
