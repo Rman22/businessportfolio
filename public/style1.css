@@ -62,3 +62,13 @@ swiper
     margin-left:16rem !important;
     margin-right: 16rem !important;
 }
+
+.swiper-button-next {
+    color: gray !important;
+    
+
+}
+.swiper-button-prev {
+
+    color: gray !important;
+}
