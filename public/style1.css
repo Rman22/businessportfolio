@@ -23,7 +23,10 @@ html,body{
 
 }
 
-
+.section-one{
+    background-image: url(img/nature-bg.jpg);
+    background-attachment: fixed;
+}
 .section-two{
     background-color: #39b54a;
 }
