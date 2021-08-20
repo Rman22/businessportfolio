@@ -25,10 +25,7 @@ html,body{
 
 .section-one{
     background-image: url(img/nature-bg.jpg);
-    background-attachment: fixed;
-    height: 100vh;
-    width: 100%;
-    background-position: center;
+    background-size: cover;
 }
 .section-two{
     background-color: #39b54a;
