@@ -18,13 +18,16 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
     <script src="main.js"></script>	
    
 </head>
 <body>
     <!--Section 1-->
-    <div class="">
-    <div class="section-one "  id="home">
+    <div class=""></div>
+    <div class="section-one parallax-window"  id="home" data-parallax="scroll" data-image-src="img/nature-bg.jpg" >
+    
         <!---Header logo and menu here-->
             <div class="section-one-header  justify-center grid grid-cols-2 mx-5 sm:mx-10 pt-6 ">
                 <div class="logo cursor-pointer ">
@@ -217,7 +220,7 @@
         </div>
     </div>
     <div class="section-three bg-white " id="services">
-        <div class="m-auto text-center xl:mx-64 lg:mx-32 sm:mx-12 px-6  mt-32 pb-12 border-b ">
+        <div class="m-auto text-center xl:mx-64 lg:mx-32 sm:mx-12 px-6  pt-32 pb-12 border-b ">
          <h6 class="tracking-widest text-base font-normal text-green-400">WHAT WE DO</h6>
          <h1 class="leading-normal xl:text-7xl  sm:text-5xl lg:text-6xl text-3xl ">We’ve got everything you need to launch and grow your business</h1>
         </div>
@@ -299,8 +302,9 @@
             </div>
         </div>
     </div>
+    <div class="bg-white">
     <div class="section-four lg:mx-32 xl:mx-64  " id="work">
-        <div class="swiper-container swiper3 mb-12 ">
+        <div class="swiper-container swiper3 pb-12 ">
             <div class="swiper-wrapper mt-8 mb-16 lg:my-24">
               <div class="swiper-slide">
                 <img src="img/four_one.webp" />
@@ -327,7 +331,7 @@
 
             
     </div> 
-
+</div>
  <div class="section-five relative bg-gray-300 " id="client">
     <div class=" m-auto text-center lg:mx-32 xl:mx-64 pt-32  ">
         <h6 class="tracking-widest text-base lg:text-lg text-green-700 font-bold pb-4">OUR CLIENTS</h6>
@@ -397,7 +401,8 @@
         </div>
     
  </div>
- <div class=" contactSection bg-cover bg-fixed" style="background-image: url(img/xcontact-bg.jpg.pagespeed.ic.Yg-_T7iMmI.webp)" id="contact">
+ <div class=" contactSection  parallax-window" data-parallax="scroll" data-image-src="img/xcontact.webp" id="contact">
+    <div class="contactOpacity">
     <div class="lg:mx-16 xl:mx-64 xl:pb-24 pb-12">
             <div class=" flex justify-center items-center  ">
                 <div class="border-2 h-24 border-green-500"> </div>
@@ -458,6 +463,7 @@
                 </div>
             </div>
     </div>
+ </div>
 </div>
 <div class="footerSection bg-customBlack">
     <div class="footerContent">
